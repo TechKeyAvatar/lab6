@@ -6,8 +6,8 @@ csak siman a megfelelo! ele kell masolni
 
 #header
 #header a
-#center
 #toplink
+#center
 strong
 
 Ezek a Style-ok, mar megirtak nekunk: */
@@ -28,6 +28,12 @@ border-radius: 12px 12px 0px 0px; }
 margin-left: 20px;
 margin-bottom: 20px;}
 
+#header
+{ position: relative;
+margin-top: 40px;
+border-radius: 12px 12px 0px 0px;}
+
+
 #header h1
 { position: absolute;
 left: 420px;
@@ -43,15 +49,18 @@ color: #E35335;}
 width: 100%;
 background-color: #333;}
 
-
-
-#main-nav ul li
+#main-nav ul
 { list-style-type: none;
 margin: 0;
 padding: 0;
 float: left;
 position: relative;
 left:50%;}
+
+#main-nav ul li
+{ float: left;
+position: relative;
+right: 50%;}
 
 #main-nav ul li a
 { padding: 10px 25px;
@@ -96,17 +105,14 @@ float: left;}
 #footer
 { background-color: #777;
 height: 80px;
-clear: both;}
+clear: both;
+
+}
 /*   ----------------------------------------------------   */
 /*   ----------------------------------------------------   */
 
 
 /*
-
-{ position: relative;
-margin-top: 40px;
-border-radius: 12px 12px 0px 0px;}
-
 
 { text-decoration: none;
 position: absolute;
@@ -115,8 +121,6 @@ right: 10px;
 color: white;
 font-size: 1.8em;}
 
-{ float: left;
-position: relative;
-right: 50%;}
+
 
 */
